@@ -23,3 +23,12 @@ from geopandas.tools import geocode
 # "application name" in the user_agent parameter!
 geo = geocode(data['addr'], provider='nominatim'
               , user_agent='qmslup_ss', timeout=4)
+
+join = geo.join(data)
+join.head()
+
+# Output file path
+outfp = r"data/addresses.shp"
+
+# Save to Shapefile
+join.to_file(outfp)
