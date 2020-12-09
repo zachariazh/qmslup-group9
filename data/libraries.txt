@@ -1,0 +1,6 @@
+id;name;addr
+01;Helsinki University Main Library;Fabianinkatu 30, 00014 Helsinki
+02;Kumpulan kampuskirjasto;Gustaf Hällströmin katu 2, 00014 Helsinki
+03;Meilahden kampuskirjasto;Haartmaninkatu 4, 00014 Helsinki
+04;Oppimiskeskus Aleksandria;Fabianinkatu 28, 00014 Helsinki
+05;Oppimiskeskus Minerva;Siltavuorenpenger 5 A, 00014 Helsingin yliopisto
