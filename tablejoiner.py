@@ -19,29 +19,16 @@ def tablejoiner(ttm_input_fp, ykr_input_fp, output_fp):
     """
     
     output_file = output_fp + "/" + ttm_input_fp[-11:-4]
-    print("\n\nCreating shapefile:", output_file + "/" + ttm_input_fp[-11:-4] + ".shp")
+    print("\n\nCreating shapefile:", output_file + ".shp")
     
     # Read inputs
     travel_matrix = pd.read_csv(ttm_input_fp, sep = ";", na_values = [-1])
     ykr = gpd.read_file(ykr_input_fp)
-    
-    print(ykr.head())
-    
+        
     # Join data
     merge = ykr.merge(travel_matrix, left_on = "YKR_ID", right_on = "from_id")
-    
-    # Output shapefile
-    if os.path.exists(output_file):
-        print("\nWarning: A file with the same name already exists, do you want to overwrite? (y/n)")
-        overwrite = input()
-        if overwrite == "y" or overwrite == "Y":
-            merge.to_file(output_file)
-            print("\nNew shapefile created:", output_file)
-        else:
-            print("\nOverwriting file cancelled.")
-    else:
-        merge.to_file(output_file)
-        print("\nNew shapefile created:", output_file + "/" + ttm_input_fp[-11:-4] + ".shp")
+    merge.to_file(output_file)
+    print("\nNew shapefile created:", output_file + "/" + ttm_input_fp[-11:-4] + ".shp")
     
     
     
