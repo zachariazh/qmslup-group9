@@ -1,7 +1,6 @@
-# qmslup-group9
-### QMSLUP course group work
+## QMSLUP course group work of Group 9
 
-A python tool to take a .csv file of addresses, into the address locations' accessibility grid data
+### A python tool to take a .csv table of Helsinki metropolitan region addresses, and output the address locations' accessibility grid data as .shp files.
 
 **(Addresses in the .csv file need to be in a column named 'addr')**
 
