@@ -1,6 +1,6 @@
 ## QMSLUP course group work of Group 9
 
-### A python tool to take a .csv table of Helsinki metropolitan region addresses, and output the address locations' accessibility grid data as .shp files.
+### A python tool to take a .csv table of Helsinki metropolitan region addresses, and output the address locations' accessibility data as grid shapefiles.
 
 ## Required data downloads
 
