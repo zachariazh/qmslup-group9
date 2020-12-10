@@ -1,24 +1,29 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Dec  9 17:33:56 2020
+import pandas as pd
 
-@author: Saku
-"""
 def geocode(fp):
-    # Import necessary modules
-    import pandas as pd
-
+    
+    """
+    The geocode takes a .csv file of addresses, and geocodes the text in the column
+    named 'addr' into point features
+    
+    Args:
+        fp (string): filepath of the address .csv file
+        
+    Returns:
+        points (geodataframe): geodataframe of the locations as point features
+    """
+    
+    from geopandas.tools import geocode
+    
     # Read the data
     data = pd.read_csv(fp, sep=';')
     
-    # Import the geocoding tool
-    from geopandas.tools import geocode
-    
-    # Geocode addresses using Nominatim. Remember to provide a custom
-    # "application name" in the user_agent parameter!
-    geo = geocode(data['addr'], provider='nominatim'
-                  , user_agent='qmslup_ss', timeout=4)
-    
-    join = geo.join(data)
 
-    return join
+    # Geocode addresses using the provider Nominatim.
+    # A custom "application name" is needed as the user_agent parameter!
+    geo = geocode(data['addr'], provider='nominatim'
+                  , user_agent='qmslup_group9', timeout=4)
+    
+    points = geo.join(data)
+
+    return points
