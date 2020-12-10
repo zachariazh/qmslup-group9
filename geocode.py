@@ -11,7 +11,7 @@ import geopandas as gpd
 from shapely.geometry import Point
 
 # Filepath
-fp = r"data/libraries.txt"
+fp = r"C:/Users/Saku/Desktop/Temp_GIS/QMSLUP/library_accessibility/qmslup-group9/data/libraries.txt"
 
 # Read the data
 data = pd.read_csv(fp, sep=';')
