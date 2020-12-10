@@ -6,10 +6,14 @@ from filefinder import filefinder
 from tablejoiner import tablejoiner
 
 # Filepaths for the address .csv, the YKR Grid, and the outputs
-addr_fp = r"C:\Users\Saku\Desktop\Temp_GIS\QMSLUP\library_accessibility\qmslup-group9\data\libraries.txt"
-ykr_fp = r"C:\Users\Saku\Desktop\Temp_GIS\QMSLUP\library_accessibility\MetropAccess_YKR_grid\MetropAccess_YKR_grid_EurefFIN.shp"
-ttm_fp = r"C:\Users\Saku\Desktop\Temp_GIS\QMSLUP\library_accessibility\HelsinkiTravelTimeMatrix2018"
-out_fp = r"C:\Users\Saku\Desktop\Temp_GIS\QMSLUP\library_accessibility\qmslup-group9\data"
+    # Addresses .csv file path
+addr_fp = r"C:\...\addresses.txt"
+    # YKR Grid file path
+ykr_fp = r"C:\...\MetropAccess_YKR_grid\MetropAccess_YKR_grid_EurefFIN.shp"
+    # Travel Time Matrix *folder* path
+ttm_fp = r"C:\...\HelsinkiTravelTimeMatrix2018"
+    # Output folder path
+out_fp = r"C:\...\qmslup-group9\data"
 
 # Read the data
 data = pd.read_csv(addr_fp, sep=';')
