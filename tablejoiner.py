@@ -1,6 +1,5 @@
 import pandas as pd
 import geopandas as gpd
-import os
 
 def tablejoiner(ttm_input_fp, ykr_input_fp, output_fp):
     

@@ -1,5 +1,4 @@
 import glob
-import os
 
 def filefinder(input_fp, output_fp, id_list):
     
