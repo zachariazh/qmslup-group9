@@ -1,4 +1,4 @@
 pandas
+gdal
 geopandas
-shapely
 geopy

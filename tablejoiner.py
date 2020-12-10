@@ -31,6 +31,3 @@ def tablejoiner(ttm_input_fp, ykr_input_fp, output_fp):
     
     
     
-tablejoiner(r"C:\Users\Saku\Desktop\Temp_GIS\QMSLUP\library_accessibility\HelsinkiTravelTimeMatrix2018\5931xxx\travel_times_to_ 5931307.txt"
-            , r"C:\Users\Saku\Desktop\Temp_GIS\QMSLUP\library_accessibility\MetropAccess_YKR_grid\MetropAccess_YKR_grid_EurefFIN.shp"
-            , r"C:\Users\Saku\Desktop\Temp_GIS\QMSLUP\library_accessibility\qmslup-group9\data")
