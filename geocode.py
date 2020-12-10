@@ -7,7 +7,6 @@ Created on Wed Dec  9 17:33:56 2020
 
 # Import necessary modules
 import pandas as pd
-import geopandas as gpd
 from shapely.geometry import Point
 
 # Filepath
@@ -28,7 +27,7 @@ join = geo.join(data)
 join.head()
 
 # Output file path
-outfp = r"data/addresses.shp"
+outfp = r"C:/Users/Saku/Desktop/Temp_GIS/QMSLUP/library_accessibility/qmslup-group9/data/addresses.shp"
 
 # Save to Shapefile
 join.to_file(outfp)
