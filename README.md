@@ -4,7 +4,7 @@
 
 ### The tool automates preprocessing steps often done manually through a GIS software GUI, saving time especially when analysing multiple locations.
 
-**Typical preprocessing steps this tool auromates:**
+**Typical preprocessing steps this tool automates:**
 
 1. Finding which YKR Grid square your locations of interest are in
 
