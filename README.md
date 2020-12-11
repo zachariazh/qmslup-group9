@@ -1,6 +1,16 @@
-## QMSLUP course group work of Group 9
+## University of Helsinki QMSLUP course group work of Group 9
 
-### A python tool to take a .csv table of Helsinki metropolitan region addresses, and output the address locations' accessibility data as grid shapefiles.
+### A python tool to take a .csv table of Helsinki metropolitan region addresses, and output their locations' accessibility data as preprocessed grid shapefiles.
+
+### The tool automates preprocessing steps often done manually through a GIS software GUI, saving time especially when analysing multiple locations.
+
+**Typical preprocessing steps this tool auromates:**
+
+1. Finding which YKR Grid square your locations of interest are in
+
+2. Joining the appropriate Travel Time Matrix (TTM) data for each location to a copy of the YKR grid
+
+3. Saving the resulting joined layer
 
 ## Required data downloads
 
