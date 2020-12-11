@@ -1,5 +1,5 @@
 id;name;addr
-01;Helsinki University Main Library;Fabianinkatu 30, Helsinki
-02;Kumpulan kampuskirjasto;Gustaf Hällströmin katu 2, Helsinki
-03;Meilahden kampuskirjasto;Haartmaninkatu 4, Helsinki
-04;Viikin kampuskirjasto;Viikinkaari 11 A, Helsinki
+01;Helsinki University Main Library;Fabianinkatu 30, 00100 Helsinki
+02;Kumpulan kampuskirjasto;Gustaf Hällströmin katu 2, 00560 Helsinki
+03;Meilahden kampuskirjasto;Haartmaninkatu 4, 00290 Helsinki
+04;Viikin kampuskirjasto;Viikinkaari 11 A, 00790 Helsinki
