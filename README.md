@@ -12,6 +12,8 @@
 
 3. Saving the resulting joined layer
 
+Doing these tasks manually might take a minute per location, whereas when this tool is set up, each additional location adds only about 7.5 seconds of processing time. This means 20 locations processed in 3-4 minutes instead of 20!
+
 ## Required data downloads
 
 YKR Grid data and Helsinki Travel Time Matrix data are needed, DL links copied from [here](https://blogs.helsinki.fi/saavutettavuus/paakaupunkiseudun-matka-aikamatriisi-2018/) below:
