@@ -22,6 +22,9 @@ ykr = gpd.read_file(ykr_fp)
 # Geocode the addresses to points using geocode.py
 points = geocode(addr_fp)
 
+# Optional output of the geocoded address points
+# points.to_file(out_fp + "/addr_points")
+
 # Reproject the library points to match the YKR Grid projection
 geo = points.to_crs("EPSG:3067")
 
