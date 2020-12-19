@@ -1,6 +1,4 @@
-## University of Helsinki QMSLUP course group work of Group 9
-
-### A python tool to take a .csv table of Helsinki metropolitan region addresses, and output their locations' accessibility data as preprocessed grid shapefiles.
+## University of Helsinki QMSLUP course group work of Group 9: <br/> A python tool to take a .csv table of Helsinki metropolitan region addresses, and output their locations' accessibility data as preprocessed grid shapefiles.
 
 ### The tool automates preprocessing steps often done manually through a GIS software GUI, saving time especially when analysing multiple locations.
 
@@ -13,6 +11,15 @@
 3. Saving the resulting joined layer
 
 **Doing these tasks manually might take a minute per location, whereas when this tool is set up, each additional location adds only about 7.5 seconds of processing time. This means 20 locations processed in 3-4 minutes instead of 20!**
+
+### Tool workflow:
+
+![Flowchart](Tool_workflow.png)
+
+-----
+<br/>
+
+# Notes
 
 ## Required data downloads
 
@@ -33,7 +40,7 @@ YKR Grid data and Helsinki Travel Time Matrix data are needed, DL links copied f
 A grid of travel times from the input locations
 
 
-## Notes
+## Other
 
 1. Edit filepaths at the beginning of main.py to your own filepaths
 
