@@ -35,9 +35,11 @@ YKR Grid data and Helsinki Travel Time Matrix data are needed, DL links copied f
 
 2. A .csv file of addresses for the locations to be analysed
 
-## Output
+## Outputs
 
-A grid of travel times from the input locations
+1. A grid of travel times from the input locations
+
+2. Optionally the geocoded points of the input addresses
 
 
 ## Other
